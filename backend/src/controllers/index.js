@@ -1,0 +1,17 @@
+module.exports = {
+  empresaController: require("./empresa.controller"),
+  categoriaController: require("./categoria.controller"),
+  clienteController: require("./cliente.controller"),
+  proveedorController: require("./proveedor.controller"),
+  productoController: require("./producto.controller"),
+  almacenController: require("./almacen.controller"),
+  stockController: require("./stock.controller"),
+  empleadoController: require("./empleado.controller"),
+  usuarioController: require("./usuario.controller"),
+  cajaController: require("./caja.controller"),
+  cajaMovimientoController: require("./cajaMovimiento.controller"),
+  compraController: require("./compra.controller"),
+  compraDetalleController: require("./compraDetalle.controller"),
+  ventaController: require("./venta.controller"),
+  ventaDetalleController: require("./ventaDetalle.controller"),
+};

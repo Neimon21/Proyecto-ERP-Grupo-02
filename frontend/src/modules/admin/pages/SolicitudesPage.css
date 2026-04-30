@@ -1,0 +1,137 @@
+.admin-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  padding: 40px;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* CARD PRINCIPAL */
+.admin-card {
+  background: #ffffff;
+  color: #1e293b;
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 1100px;
+  margin: auto;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* HEADER */
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.admin-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table thead {
+  background: #f1f5f9;
+}
+
+.admin-table th {
+  text-align: left;
+  padding: 14px;
+  font-size: 14px;
+  color: #64748b;
+}
+
+.admin-table td {
+  padding: 14px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.admin-table tbody tr:hover {
+  background: #f8fafc;
+}
+
+.role-select {
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid #cbd5f5;
+  background: #f8fafc;
+  font-size: 13px;
+}
+
+.btn {
+  border: none;
+  padding: 10px 2px;
+  border-radius: 8px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.2s;
+
+}
+
+.btn-approve {
+  background: #22c55e;
+  color: white;
+}
+
+.btn-approve:hover {
+  background: #16a34a;
+}
+
+.btn-reject {
+  background: #ef4444;
+  color: white;
+  margin-left: 8px;
+}
+
+.btn-reject:hover {
+  background: #dc2626;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px;
+  color: #64748b;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.actions .btn {
+  flex: 1;
+}
+
+.btn-back {
+  background: transparent;
+  width: 8%;
+  display: inline-block;
+  color: #1e293b;
+  padding: 8px 2px;
+  border-radius: 10px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-back:hover {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+}
+
+.admin-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.admin-header h2 {
+  margin: 0;
+}
